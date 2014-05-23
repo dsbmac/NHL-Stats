@@ -1,0 +1,65 @@
+library(XML)
+setwd("C:/Users/dsbmac/Documents/Professional Development/MITx 15.071x The Analytics Edge/data/NHL")
+
+standings = read.csv("standings.csv")
+str(standings)
+str(standings$X.GP)
+
+# URL of interest: 
+mps <- "http://news.bbc.co.uk/2/hi/uk_politics/8044207.stm" 
+nhl.url <- "http://www.nhl.com/ice/standings.htm?season=20132014&type=LEA"
+
+# parse the document for R representation: 
+mps.doc <- htmlParse(mps)
+nhl.doc <- htmlParse(nhl.url)
+
+# get all the tables in mps.doc as data frames
+mps.tabs <- readHTMLTable(mps.doc) 
+nhl.tabs <- readHTMLTable(nhl.doc)
+
+nhl.tabs
+nhl.size = length(nhl.tabs)
+
+markers = seq(1,nhl.size)
+
+markers.Heads = NULL
+nhl.Tails = NULL
+
+for (i in 1:length(nhl.tabs)) {
+  nhl.Heads[i] <- head(nhl.tabs[[i]])  
+  nhl.Tails[i] <- tail(nhl.tabs[[i]])    	
+}
+
+nhl.Heads[6]
+nhl.Tails[6]
+
+
+# ... and the loop:
+
+for (i in 1:length(nhl.tabs)) {
+ 
+  lastrow <- nrow(nhl.tabs[[i]]) # get number of rows
+  lastcol <- ncol(nhl.tabs[[i]])
+ 
+  if (as.character(nhl.tabs[[i]][1,1])==first & as.character(nhl.tabs[[i]][lastrow,lastcol])==last) {
+   
+    tabi <- i
+     
+  }
+ }
+
+tabI = 3
+
+head(nhl.tabs[[tabI]])
+tail(nhl.tabs[[tabI]])
+standings <- nhl.tabs[[tabI]]
+
+standings
+
+money <- sapply(nhl[,-1:-3], FUN= function(x) as.numeric(gsub(",", "", as.character(x), fixed = TRUE) ))
+
+nhl2 <- cbind(nhl[,1:3],money)
+
+write.csv(standings, file = "standings.csv")
+
+
