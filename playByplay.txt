@@ -1,0 +1,101 @@
+"playid"	"period"	"strength"	"time"	"event"	"description"	"player1visitor"	"player2visitor"	"player3visitor"	"player4visitor"	"player5visitor"	"player6visitor"	"player1posvisitor"	"player2posvisitor"	"player3posvisitor"	"player4posvisitor"	"player5posvisitor"	"player6posvisitor"	"player1home"	"player2home"	"player3home"	"player4home"	"player5home"	"player6home"	"player1poshome"	"player2poshome"	"player3poshome"	"player4poshome"	"player5poshome"	"player6poshome"
+"1"	1	1	" "	"0:0020:00"	"PSTR"	"Period Start- Local time: 7:09 EDT"	"14"	"20"	"49"	"26"	"76"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"37"	"63"	"18"	"43"	"55"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"2"	2	1	"EV"	"0:0020:00"	"FAC"	"BOS won Neu. Zone - MTL #14 PLEKANEC vs BOS #37 BERGERON"	"14"	"20"	"49"	"26"	"76"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"37"	"63"	"18"	"43"	"55"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"3"	3	1	"EV"	"0:1319:47"	"HIT"	"MTL #76 SUBBAN HIT BOS #63 MARCHAND, Neu. Zone"	"14"	"20"	"49"	"26"	"76"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"37"	"63"	"18"	"43"	"55"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"4"	4	1	" "	"0:2319:37"	"STOP"	"ICING"	"14"	"20"	"49"	"26"	"76"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"46"	"12"	"17"	"47"	"86"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"5"	5	1	"EV"	"0:2319:37"	"FAC"	"MTL won Def. Zone - MTL #14 PLEKANEC vs BOS #46 KREJCI"	"14"	"20"	"49"	"26"	"76"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"46"	"12"	"17"	"47"	"86"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"6"	6	1	" "	"0:3319:27"	"STOP"	"ICING"	"51"	"11"	"67"	"26"	"74"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"46"	"12"	"17"	"47"	"86"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"7"	7	1	"EV"	"0:3319:27"	"FAC"	"MTL won Off. Zone - MTL #51 DESHARNAIS vs BOS #12 IGINLA"	"51"	"11"	"67"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"46"	"12"	"17"	"47"	"86"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"8"	8	1	"EV"	"0:3719:23"	"MISS"	"MTL #79 MARKOV, Slap, Over Net, Off. Zone, 61 ft."	"51"	"11"	"67"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"46"	"12"	"17"	"47"	"86"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"9"	9	1	"EV"	"0:4119:19"	"HIT"	"BOS #17 LUCIC HIT MTL #74 EMELIN, Def. Zone"	"51"	"11"	"67"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"46"	"12"	"17"	"47"	"86"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"10"	10	1	"EV"	"1:4418:16"	"HIT"	"BOS #86 MILLER HIT MTL #81 ELLER, Def. Zone"	"81"	"17"	"21"	"40"	"43"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"34"	"25"	"21"	"47"	"86"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"11"	11	1	"EV"	"1:5118:09"	"BLOCK"	"MTL #81 ELLER BLOCKED BY  BOS #34 SODERBERG, Wrist, Def. Zone"	"81"	"17"	"21"	"40"	"43"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"34"	"25"	"21"	"47"	"86"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"12"	12	1	" "	"1:5118:09"	"STOP"	"PUCK IN NETTING"	"81"	"17"	"21"	"40"	"43"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"34"	"25"	"21"	"47"	"86"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"13"	13	1	"EV"	"1:5118:09"	"FAC"	"MTL won Off. Zone - MTL #48 BRIERE vs BOS #34 SODERBERG"	"48"	"22"	"8"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"11"	"34"	"20"	"43"	"55"	"40"	"C"	"C"	"L"	"D"	"D"	"G"
+"14"	14	1	"EV"	"1:5718:03"	"BLOCK"	"MTL #74 EMELIN BLOCKED BY  BOS #34 SODERBERG, Wrist, Def. Zone"	"48"	"22"	"8"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"11"	"34"	"20"	"43"	"55"	"40"	"C"	"C"	"L"	"D"	"D"	"G"
+"15"	15	1	" "	"2:0517:55"	"STOP"	"OFFSIDE"	"48"	"22"	"8"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"11"	"20"	"22"	"43"	"55"	"40"	"C"	"L"	"L"	"D"	"D"	"G"
+"16"	16	1	"EV"	"2:0517:55"	"FAC"	"BOS won Neu. Zone - MTL #48 BRIERE vs BOS #11 CAMPBELL"	"48"	"22"	"8"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"11"	"20"	"22"	"43"	"55"	"40"	"C"	"L"	"L"	"D"	"D"	"G"
+"17"	17	1	"EV"	"2:1817:42"	"GOAL"	"MTL #22 WEISE(3), Tip-In, Off. Zone, 8 ft.Assists: #48 BRIERE(4); #8 PRUST(2)"	"48"	"22"	"8"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"11"	"20"	"22"	"43"	"55"	"40"	"C"	"L"	"L"	"D"	"D"	"G"
+"18"	18	1	"EV"	"2:1817:42"	"FAC"	"MTL won Neu. Zone - MTL #14 PLEKANEC vs BOS #46 KREJCI"	"14"	"20"	"49"	"26"	"76"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"46"	"12"	"17"	"47"	"86"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"19"	19	1	"EV"	"2:4117:19"	"GIVE"	"BOS GIVEAWAY - #86 MILLER, Def. Zone"	"14"	"20"	"49"	"26"	"76"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"46"	"12"	"17"	"47"	"86"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"20"	20	1	"EV"	"2:4717:13"	"SHOT"	"MTL ONGOAL - #49 BOURNIVAL, Backhand, Off. Zone, 40 ft."	"14"	"11"	"49"	"26"	"76"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"46"	"12"	"17"	"47"	"86"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"21"	21	1	"EV"	"2:5217:08"	"HIT"	"MTL #14 PLEKANEC HIT BOS #12 IGINLA, Off. Zone"	"14"	"11"	"49"	"26"	"76"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"46"	"12"	"17"	"47"	"86"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"22"	22	1	"EV"	"3:1116:49"	"HIT"	"MTL #26 GORGES HIT BOS #12 IGINLA, Def. Zone"	"51"	"11"	"67"	"26"	"74"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"37"	"63"	"12"	"33"	"86"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"23"	23	1	" "	"3:1916:41"	"STOP"	"ICING"	"51"	"11"	"67"	"26"	"74"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"37"	"63"	"18"	"27"	"33"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"24"	24	1	"EV"	"3:1916:41"	"FAC"	"BOS won Off. Zone - MTL #51 DESHARNAIS vs BOS #37 BERGERON"	"51"	"11"	"67"	"26"	"74"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"37"	"63"	"18"	"27"	"33"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"25"	25	1	"EV"	"3:3016:30"	"HIT"	"BOS #33 CHARA HIT MTL #67 PACIORETTY, Def. Zone"	"51"	"11"	"67"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"37"	"63"	"18"	"27"	"33"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"26"	26	1	"EV"	"3:3816:22"	"HIT"	"MTL #67 PACIORETTY HIT BOS #18 SMITH, Off. Zone"	"51"	"11"	"67"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"37"	"63"	"18"	"27"	"33"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"27"	27	1	"EV"	"4:0016:00"	"GIVE"	"BOS GIVEAWAY - #63 MARCHAND, Neu. Zone"	"81"	"17"	"21"	"74"	"79"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"37"	"63"	"18"	"47"	"86"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"28"	28	1	"EV"	"4:0815:52"	"MISS"	"MTL #17 BOURQUE, Snap, Wide of Net, Off. Zone, 44 ft."	"81"	"17"	"21"	"40"	"43"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"37"	"25"	"21"	"47"	"86"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"29"	29	1	"EV"	"4:1215:48"	"HIT"	"BOS #86 MILLER HIT MTL #40 BEAULIEU, Def. Zone"	"81"	"17"	"21"	"40"	"43"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"34"	"25"	"21"	"47"	"86"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"30"	30	1	"EV"	"4:2415:36"	"GIVE"	"MTL GIVEAWAY - #81 ELLER, Off. Zone"	"81"	"17"	"21"	"40"	"43"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"34"	"25"	"21"	"47"	"86"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"31"	31	1	"EV"	"4:3815:22"	"HIT"	"BOS #25 FRASER HIT MTL #43 WEAVER, Off. Zone"	"81"	"17"	"21"	"40"	"43"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"34"	"25"	"21"	"43"	"55"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"32"	32	1	"EV"	"5:0114:59"	"HIT"	"BOS #34 SODERBERG HIT MTL #76 SUBBAN, Off. Zone"	"48"	"22"	"8"	"26"	"76"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"34"	"20"	"22"	"43"	"55"	"40"	"C"	"L"	"L"	"D"	"D"	"G"
+"33"	33	1	"EV"	"5:2614:34"	"HIT"	"BOS #20 PAILLE HIT MTL #43 WEAVER, Off. Zone"	"14"	"22"	"49"	"40"	"43"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"11"	"20"	"22"	"27"	"33"	"40"	"C"	"L"	"L"	"D"	"D"	"G"
+"34"	34	1	"EV"	"5:3014:30"	"HIT"	"BOS #22 THORNTON HIT MTL #49 BOURNIVAL, Off. Zone"	"14"	"22"	"49"	"40"	"43"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"11"	"20"	"22"	"27"	"33"	"40"	"C"	"L"	"L"	"D"	"D"	"G"
+"35"	35	1	"EV"	"5:3314:27"	"TAKE"	"MTL TAKEAWAY - #49 BOURNIVAL, Def. Zone"	"14"	"22"	"49"	"40"	"43"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"11"	"20"	"22"	"27"	"33"	"40"	"C"	"L"	"L"	"D"	"D"	"G"
+"36"	36	1	" "	"5:3714:23"	"STOP"	"OFFSIDE"	"14"	"20"	"49"	"74"	"79"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"11"	"20"	"22"	"27"	"33"	"40"	"C"	"L"	"L"	"D"	"D"	"G"
+"37"	37	1	"EV"	"5:3714:23"	"FAC"	"BOS won Neu. Zone - MTL #14 PLEKANEC vs BOS #37 BERGERON"	"14"	"20"	"49"	"74"	"79"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"37"	"63"	"18"	"43"	"55"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"38"	38	1	"EV"	"5:5114:09"	"HIT"	"BOS #55 BOYCHUK HIT MTL #49 BOURNIVAL, Def. Zone"	"14"	"20"	"49"	"74"	"79"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"37"	"63"	"18"	"43"	"55"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"39"	39	1	"EV"	"6:0313:57"	"TAKE"	"MTL TAKEAWAY - #79 MARKOV, Def. Zone"	"14"	"20"	"49"	"74"	"79"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"37"	"63"	"18"	"43"	"55"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"40"	40	1	"EV"	"6:1213:48"	"GIVE"	"MTL GIVEAWAY - #74 EMELIN, Def. Zone"	"14"	"20"	"49"	"74"	"79"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"37"	"63"	"18"	"43"	"55"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"41"	41	1	"EV"	"6:1313:47"	"BLOCK"	"BOS #37 BERGERON BLOCKED BY  MTL #74 EMELIN, Wrist, Def. Zone"	"14"	"20"	"49"	"74"	"79"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"37"	"63"	"18"	"43"	"55"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"42"	42	1	"EV"	"6:1813:42"	"PENL"	"BOS #63 MARCHAND Interference on goalkeeper(2 min), Off. Zone Drawn By: MTL #31 PRICE"	"14"	"20"	"49"	"74"	"79"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"37"	"63"	"18"	"43"	"55"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"43"	43	1	" "	"6:1813:42"	"STOP"	"TV TIMEOUT"	"14"	"20"	"49"	"74"	"79"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"37"	"18"	"43"	"55"	"40"	NA	"C"	"R"	"D"	"D"	"G"	NA
+"44"	44	1	"SH"	"6:1813:42"	"FAC"	"BOS won Def. Zone - MTL #51 DESHARNAIS vs BOS #37 BERGERON"	"51"	"20"	"67"	"76"	"79"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"37"	"21"	"33"	"55"	"40"	NA	"C"	"L"	"D"	"D"	"G"	NA
+"45"	45	1	"PP"	"6:3013:30"	"MISS"	"MTL #76 SUBBAN, Slap, Wide of Net, Off. Zone, 57 ft."	"51"	"20"	"67"	"76"	"79"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"37"	"21"	"33"	"55"	"40"	NA	"C"	"L"	"D"	"D"	"G"	NA
+"46"	46	1	"SH"	"6:4113:19"	"BLOCK"	"MTL #76 SUBBAN BLOCKED BY  BOS #37 BERGERON, Slap, Def. Zone"	"51"	"20"	"67"	"76"	"79"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"37"	"21"	"33"	"55"	"40"	NA	"C"	"L"	"D"	"D"	"G"	NA
+"47"	47	1	"SH"	"6:4813:12"	"SHOT"	"BOS ONGOAL - #55 BOYCHUK, Snap, Def. Zone, 132 ft."	"51"	"20"	"67"	"76"	"79"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"37"	"21"	"33"	"55"	"40"	NA	"C"	"L"	"D"	"D"	"G"	NA
+"48"	48	1	"SH"	"6:5613:04"	"HIT"	"BOS #86 MILLER HIT MTL #51 DESHARNAIS, Def. Zone"	"48"	"51"	"20"	"76"	"79"	"31"	"C"	"C"	"L"	"D"	"D"	"G"	"11"	"20"	"33"	"86"	"40"	NA	"C"	"L"	"D"	"D"	"G"	NA
+"49"	49	1	"SH"	"7:0013:00"	"GIVE"	"BOS GIVEAWAY - #33 CHARA, Def. Zone"	"48"	"51"	"20"	"76"	"79"	"31"	"C"	"C"	"L"	"D"	"D"	"G"	"11"	"20"	"33"	"86"	"40"	NA	"C"	"L"	"D"	"D"	"G"	NA
+"50"	50	1	"PP"	"7:0612:54"	"MISS"	"MTL #20 VANEK, Backhand, Wide of Net, Off. Zone, 14 ft."	"48"	"51"	"20"	"76"	"79"	"31"	"C"	"C"	"L"	"D"	"D"	"G"	"11"	"20"	"33"	"86"	"40"	NA	"C"	"L"	"D"	"D"	"G"	NA
+"51"	51	1	"PP"	"7:1512:45"	"SHOT"	"MTL ONGOAL - #48 BRIERE, Wrist, Off. Zone, 18 ft."	"48"	"51"	"20"	"76"	"79"	"31"	"C"	"C"	"L"	"D"	"D"	"G"	"11"	"20"	"33"	"86"	"40"	NA	"C"	"L"	"D"	"D"	"G"	NA
+"52"	52	1	" "	"7:3112:29"	"STOP"	"ICING"	"14"	"48"	"11"	"40"	"76"	"31"	"C"	"C"	"R"	"D"	"D"	"G"	"37"	"21"	"43"	"55"	"40"	NA	"C"	"L"	"D"	"D"	"G"	NA
+"53"	53	1	"PP"	"7:3112:29"	"FAC"	"MTL won Def. Zone - MTL #14 PLEKANEC vs BOS #46 KREJCI"	"14"	"48"	"11"	"40"	"76"	"31"	"C"	"C"	"R"	"D"	"D"	"G"	"46"	"12"	"43"	"55"	"40"	NA	"C"	"R"	"D"	"D"	"G"	NA
+"54"	54	1	"EV"	"8:2011:40"	"MISS"	"MTL #17 BOURQUE, Snap, Wide of Net, Off. Zone, 39 ft."	"81"	"17"	"21"	"40"	"74"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"37"	"46"	"63"	"47"	"86"	"40"	"C"	"C"	"C"	"D"	"D"	"G"
+"55"	55	1	"EV"	"8:2811:32"	"BLOCK"	"MTL #21 GIONTA BLOCKED BY  BOS #37 BERGERON, Snap, Def. Zone"	"81"	"17"	"21"	"40"	"74"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"37"	"63"	"18"	"47"	"86"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"56"	56	1	"EV"	"8:4011:20"	"HIT"	"MTL #17 BOURQUE HIT BOS #47 KRUG, Off. Zone"	"81"	"17"	"21"	"26"	"74"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"37"	"63"	"18"	"47"	"86"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"57"	57	1	" "	"8:4811:12"	"STOP"	"GOALIE STOPPED"	"81"	"17"	"21"	"26"	"74"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"37"	"63"	"18"	"27"	"33"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"58"	58	1	"EV"	"8:4811:12"	"SHOT"	"BOS ONGOAL - #37 BERGERON, Wrist, Off. Zone, 45 ft."	"81"	"17"	"21"	"26"	"74"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"37"	"63"	"18"	"27"	"33"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"59"	59	1	"EV"	"8:4811:12"	"FAC"	"BOS won Off. Zone - MTL #51 DESHARNAIS vs BOS #34 SODERBERG"	"51"	"22"	"67"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"34"	"25"	"21"	"27"	"33"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"60"	60	1	"EV"	"8:5511:05"	"SHOT"	"BOS ONGOAL - #21 ERIKSSON, Snap, Off. Zone, 32 ft."	"51"	"22"	"67"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"34"	"25"	"21"	"27"	"33"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"61"	61	1	"EV"	"8:5611:04"	"HIT"	"MTL #74 EMELIN HIT BOS #21 ERIKSSON, Def. Zone"	"51"	"22"	"67"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"34"	"25"	"21"	"27"	"33"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"62"	62	1	"EV"	"9:0510:55"	"GIVE"	"BOS GIVEAWAY - #34 SODERBERG, Off. Zone"	"51"	"22"	"67"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"34"	"25"	"21"	"27"	"33"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"63"	63	1	"EV"	"9:2710:33"	"PENL"	"BOS #33 CHARA Holding(2 min), Def. Zone Drawn By: MTL #67 PACIORETTY"	"51"	"22"	"67"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"34"	"25"	"21"	"27"	"33"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"64"	64	1	"EV"	"9:2710:33"	"PENL"	"MTL #67 PACIORETTY Holding(2 min), Off. Zone Drawn By: BOS #33 CHARA"	"51"	"22"	"67"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"34"	"25"	"21"	"27"	"40"	NA	"C"	"R"	"L"	"D"	"G"	NA
+"65"	65	1	"EV"	"9:2710:33"	"FAC"	"MTL won Neu. Zone - MTL #14 PLEKANEC vs BOS #46 KREJCI"	"14"	"21"	"26"	"76"	"31"	NA	"C"	"R"	"D"	"D"	"G"	NA	"46"	"17"	"27"	"47"	"40"	NA	"C"	"L"	"D"	"D"	"G"	NA
+"66"	66	1	"EV"	"9:5510:05"	"BLOCK"	"MTL #21 GIONTA BLOCKED BY  BOS #27 HAMILTON, Wrist, Def. Zone"	"14"	"21"	"26"	"76"	"31"	NA	"C"	"R"	"D"	"D"	"G"	NA	"46"	"17"	"27"	"47"	"40"	NA	"C"	"L"	"D"	"D"	"G"	NA
+"67"	67	1	"EV"	"10:329:28"	"HIT"	"BOS #47 KRUG HIT MTL #11 GALLAGHER, Off. Zone"	"81"	"11"	"74"	"79"	"31"	NA	"C"	"R"	"D"	"D"	"G"	NA	"46"	"63"	"27"	"47"	"40"	NA	"C"	"C"	"D"	"D"	"G"	NA
+"68"	68	1	"EV"	"10:439:17"	"GIVE"	"BOS GIVEAWAY - #63 MARCHAND, Def. Zone"	"81"	"11"	"74"	"79"	"31"	NA	"C"	"R"	"D"	"D"	"G"	NA	"37"	"63"	"27"	"43"	"40"	NA	"C"	"C"	"D"	"D"	"G"	NA
+"69"	69	1	" "	"10:499:11"	"STOP"	"OFFSIDE,TV TIMEOUT"	"51"	"11"	"74"	"79"	"31"	NA	"C"	"R"	"D"	"D"	"G"	NA	"37"	"63"	"43"	"55"	"40"	NA	"C"	"C"	"D"	"D"	"G"	NA
+"70"	70	1	"EV"	"10:499:11"	"FAC"	"MTL won Neu. Zone - MTL #14 PLEKANEC vs BOS #34 SODERBERG"	"14"	"21"	"26"	"76"	"31"	NA	"C"	"R"	"D"	"D"	"G"	NA	"34"	"21"	"47"	"86"	"40"	NA	"C"	"L"	"D"	"D"	"G"	NA
+"71"	71	1	"EV"	"10:589:02"	"SHOT"	"MTL ONGOAL - #21 GIONTA, Tip-In, Off. Zone, 11 ft."	"14"	"21"	"26"	"76"	"31"	NA	"C"	"R"	"D"	"D"	"G"	NA	"34"	"21"	"47"	"86"	"40"	NA	"C"	"L"	"D"	"D"	"G"	NA
+"72"	72	1	"EV"	"11:168:44"	"MISS"	"BOS #47 KRUG, Wrist, Over Net, Off. Zone, 62 ft."	"14"	"21"	"26"	"76"	"31"	NA	"C"	"R"	"D"	"D"	"G"	NA	"34"	"21"	"47"	"86"	"40"	NA	"C"	"L"	"D"	"D"	"G"	NA
+"73"	73	1	"EV"	"11:328:28"	"HIT"	"MTL #76 SUBBAN HIT BOS #21 ERIKSSON, Def. Zone"	"14"	"21"	"67"	"26"	"76"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"34"	"21"	"33"	"47"	"86"	"40"	"C"	"L"	"D"	"D"	"D"	"G"
+"74"	74	1	"EV"	"11:368:24"	"TAKE"	"MTL TAKEAWAY - #67 PACIORETTY, Def. Zone"	"14"	"21"	"67"	"26"	"76"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"34"	"21"	"33"	"47"	"86"	"40"	"C"	"L"	"D"	"D"	"D"	"G"
+"75"	75	1	"EV"	"11:558:05"	"SHOT"	"BOS ONGOAL - #12 IGINLA, Wrist, Off. Zone, 47 ft."	"51"	"11"	"67"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"46"	"12"	"17"	"27"	"33"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"76"	76	1	" "	"11:558:05"	"STOP"	"GOALIE STOPPED"	"51"	"11"	"67"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"46"	"12"	"17"	"27"	"33"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"77"	77	1	"EV"	"11:558:05"	"GIVE"	"MTL GIVEAWAY - #79 MARKOV, Neu. Zone"	"51"	"11"	"67"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"46"	"12"	"17"	"27"	"33"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"78"	78	1	"EV"	"11:558:05"	"FAC"	"BOS won Off. Zone - MTL #81 ELLER vs BOS #17 LUCIC"	"81"	"17"	"22"	"74"	"79"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"46"	"12"	"17"	"27"	"33"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"79"	79	1	"EV"	"12:037:57"	"BLOCK"	"BOS #33 CHARA BLOCKED BY  MTL #22 WEISE, Snap, Def. Zone"	"81"	"17"	"22"	"74"	"79"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"46"	"12"	"17"	"27"	"33"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"80"	80	1	"EV"	"12:087:52"	"HIT"	"BOS #17 LUCIC HIT MTL #81 ELLER, Off. Zone"	"81"	"17"	"22"	"74"	"79"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"46"	"12"	"17"	"27"	"33"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"81"	81	1	" "	"12:107:50"	"STOP"	"ICING"	"81"	"17"	"22"	"74"	"79"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"46"	"12"	"17"	"27"	"33"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"82"	82	1	"EV"	"12:107:50"	"FAC"	"MTL won Def. Zone - MTL #81 ELLER vs BOS #37 BERGERON"	"81"	"17"	"22"	"74"	"79"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"37"	"63"	"18"	"27"	"33"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"83"	83	1	"EV"	"12:267:34"	"HIT"	"MTL #22 WEISE HIT BOS #63 MARCHAND, Off. Zone"	"81"	"17"	"22"	"26"	"76"	"31"	"C"	"R"	"R"	"D"	"D"	"G"	"37"	"63"	"18"	"27"	"33"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"84"	84	1	" "	"12:307:30"	"STOP"	"ICING"	"81"	"17"	"20"	"26"	"76"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"37"	"63"	"18"	"27"	"33"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"85"	85	1	"EV"	"12:307:30"	"FAC"	"BOS won Def. Zone - MTL #14 PLEKANEC vs BOS #37 BERGERON"	"14"	"20"	"49"	"26"	"76"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"37"	"63"	"18"	"27"	"33"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"86"	86	1	"EV"	"12:387:22"	"SHOT"	"BOS ONGOAL - #18 SMITH, Tip-In, Off. Zone, 25 ft."	"14"	"20"	"49"	"26"	"76"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"37"	"63"	"18"	"43"	"55"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"87"	87	1	" "	"12:387:22"	"STOP"	"ICING"	"14"	"20"	"49"	"26"	"76"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"37"	"63"	"18"	"43"	"55"	"40"	"C"	"C"	"R"	"D"	"D"	"G"
+"88"	88	1	"EV"	"12:387:22"	"FAC"	"BOS won Off. Zone - MTL #14 PLEKANEC vs BOS #46 KREJCI"	"14"	"20"	"49"	"26"	"76"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"46"	"12"	"17"	"43"	"55"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"89"	89	1	"EV"	"12:457:15"	"BLOCK"	"BOS #55 BOYCHUK BLOCKED BY  MTL #49 BOURNIVAL, Slap, Def. Zone"	"14"	"20"	"49"	"26"	"76"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"46"	"12"	"17"	"43"	"55"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"90"	90	1	"EV"	"12:457:15"	"SHOT"	"BOS ONGOAL - #55 BOYCHUK, Wrist, Off. Zone, 31 ft."	"14"	"20"	"49"	"26"	"76"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"46"	"12"	"17"	"43"	"55"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"91"	91	1	" "	"12:517:09"	"STOP"	"OFFSIDE"	"14"	"20"	"49"	"26"	"76"	"31"	"C"	"L"	"L"	"D"	"D"	"G"	"46"	"12"	"17"	"43"	"55"	"40"	"C"	"R"	"L"	"D"	"D"	"G"
+"92"	92	1	"EV"	"12:517:09"	"FAC"	"MTL won Neu. Zone - MTL #8 PRUST vs BOS #11 CAMPBELL"	"48"	"21"	"8"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"11"	"20"	"22"	"47"	"86"	"40"	"C"	"L"	"L"	"D"	"D"	"G"
+"93"	93	1	"EV"	"13:026:58"	"HIT"	"MTL #48 BRIERE HIT BOS #47 KRUG, Off. Zone"	"48"	"21"	"8"	"40"	"43"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"11"	"20"	"22"	"47"	"86"	"40"	"C"	"L"	"L"	"D"	"D"	"G"
+"94"	94	1	"EV"	"13:076:53"	"BLOCK"	"MTL #43 WEAVER BLOCKED BY  BOS #11 CAMPBELL, Wrist, Def. Zone"	"48"	"21"	"8"	"40"	"43"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"11"	"20"	"22"	"47"	"86"	"40"	"C"	"L"	"L"	"D"	"D"	"G"
+"95"	95	1	"EV"	"13:146:46"	"HIT"	"BOS #22 THORNTON HIT MTL #40 BEAULIEU, Off. Zone"	"48"	"21"	"8"	"40"	"43"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"11"	"20"	"22"	"47"	"86"	"40"	"C"	"L"	"L"	"D"	"D"	"G"
+"96"	96	1	" "	"13:276:33"	"STOP"	"ICING"	"48"	"21"	"8"	"40"	"43"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"11"	"20"	"22"	"47"	"86"	"40"	"C"	"L"	"L"	"D"	"D"	"G"
+"97"	97	1	"EV"	"13:276:33"	"FAC"	"BOS won Def. Zone - MTL #51 DESHARNAIS vs BOS #37 BERGERON"	"51"	"11"	"67"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"11"	"37"	"22"	"47"	"86"	"40"	"C"	"C"	"L"	"D"	"D"	"G"
+"98"	98	1	" "	"13:356:25"	"STOP"	"ICING"	"51"	"11"	"67"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"11"	"37"	"22"	"47"	"86"	"40"	"C"	"C"	"L"	"D"	"D"	"G"
+"99"	99	1	"EV"	"13:356:25"	"FAC"	"BOS won Def. Zone - MTL #51 DESHARNAIS vs BOS #37 BERGERON"	"51"	"11"	"67"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"11"	"37"	"22"	"47"	"86"	"40"	"C"	"C"	"L"	"D"	"D"	"G"
+"100"	100	1	"EV"	"13:436:17"	"GIVE"	"BOS GIVEAWAY - #86 MILLER, Def. Zone"	"51"	"11"	"67"	"74"	"79"	"31"	"C"	"R"	"L"	"D"	"D"	"G"	"11"	"37"	"22"	"47"	"86"	"40"	"C"	"C"	"L"	"D"	"D"	"G"
