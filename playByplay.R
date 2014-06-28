@@ -1,5 +1,6 @@
 # NHL stat analysis
-# we're trying to scrape play by play data from nhl.com to analyze the data
+# extracts play by play data. requires gameids file
+# data from nhl.com
 
 setwd("C:/Users/dsbmac/Documents/NHL-Stats")
 
@@ -7,48 +8,8 @@ setwd("C:/Users/dsbmac/Documents/NHL-Stats")
 library(XML)
 
 
-gameids <- scan(file="gameids")
-gameids
-
-# code ex. 2013030217
-
-gameid = "2013030217"
-
 # extract play by plays
-# http://www.nhl.com/scores/htmlreports/20132014/PL030217.HTM
-year = as.numeric(substr(gameid, 0, 4))
 
-#create season string
-season = paste(as.character(year),as.character(year+1), sep="")
-season
-
-playByplayURLFrag = "http://www.nhl.com/scores/htmlreports/"
-playByplayURL = paste(playByplayURLFrag, season, "/PL", substr(gameid,5,nchar(gameid)), ".HTM", sep="")
-#playByplayURL == "http://www.nhl.com/scores/htmlreports/20132014/PL030217.HTM"
-playByplayURL 
-
-# retrieve play By play stat page 
-docPbp <- htmlTreeParse(playByplayURL, useInternal=TRUE)
-docPbp
-
-# root node
-rootNode = xmlRoot(docPbp)
-rootNode
-
-pbpTables = getNodeSet(rootNode,"//table")
-
-#this is the main stat table
-playByplay <- readHTMLTable(pbpTables[[1]])
-
-
-# stat rows for the play by play
-pbpRows = getNodeSet(docPbp,"//tr[@class='evenColor']")
-n = xmlSize(pbpRows)
-
-
-#get table cells td
-tds = getNodeSet(pbpRows[[6]],"td")
-tds
 tds[[1]]
 tds[[7]]
 td7 = tds[[7]]
@@ -87,31 +48,71 @@ x = xpathSApply(y, string(/html/body/table[1]/tbody/tr[6]/td[4]/text()[1]@conten
 string(/*/head/meta[@name='description']/@content)
 x
 
-# /html/body/table[1]/tbody/tr[6]/td[4]/text()[1]
-# /html/body/table[1]/tbody/tr[6]/td[4]/text()[2]
 
+extract_pbp <- function(gameid) {
+  
+  print("extracting pbp")  
+  
+  # format of the url
+  # http://www.nhl.com/scores/htmlreports/20132014/PL030217.HTM
+  year = as.numeric(substr(gameid, 0, 4))
+  
+  #create season string
+  season = paste(as.character(year),as.character(year+1), sep="")
+  
+  playByplayURLFrag = "http://www.nhl.com/scores/htmlreports/"
+  playByplayURL = paste(playByplayURLFrag, season, "/PL", substr(gameid,5,nchar(gameid)), ".HTM", sep="")
+  
+  # retrieve play By play stat page 
+  docPbp <- htmlTreeParse(playByplayURL, useInternal=TRUE)
+  
+  # root node
+  rootNode = xmlRoot(docPbp)
+  
+  pbpTables = getNodeSet(rootNode,"//table")
+  
+  #this is the main stat table
+  playByplay <- readHTMLTable(pbpTables[[1]])
+  
+  
+  # stat rows for the play by play
+  pbpRows = getNodeSet(docPbp,"//tr[@class='evenColor']")
+    
+}
+
+  
 # maybe use lapply for performance
 # main stat extract function
 # Use preallocated vectors
-extract <- function(n) {
-  gameid <- numeric(n)
-  playid <- numeric(n)
-  period <- numeric(n)
-  strength <- character(n)
-  time     <- character(n)
-  event    <- character(n)
-  description <- character(n)
-  playersAway <- matrix(data=NA,nrow=n, ncol=6)
-  playerPosAway <- matrix(data=NA,nrow=n, ncol=6)
-  playersHome <- matrix(data=NA,nrow=n, ncol=6)
-  playerPosHome <- matrix(data=NA,nrow=n, ncol=6)
+parse_play_by_play <- function(gid, pbp) {
+  
+  print("parsing play by play")
+  
+  n = xmlSize(pbp)
+  print(n)
+  
+  #get table cells td
+  tds = getNodeSet(pbp[[6]],"td")
+  
+  gameid         <- character(n)
+  playid         <- numeric(n)
+  period         <- numeric(n)
+  strength       <- character(n)
+  time           <- character(n)
+  event          <- character(n)
+  description    <- character(n)
+  playersAway    <- character(n)
+  playersPosAway <- character(n)
+  playersHome    <- character(n)
+  playersPosHome <- character(n)
   
   for (i in 1:n) {
+    
     # get set of all table cells for the row
-    tds = getNodeSet(pbpRows[[i]], "td")
+    tds = getNodeSet(pbp[[i]], "td")
 
     # extract values
-    gameid[i] <- gameid
+    gameid[i] <- gid
     playid[i] <- as.numeric(xmlValue(tds[[1]]))
     period[i] <- as.numeric(xmlValue(tds[[2]]))
     strength[i] <-          xmlValue(tds[[3]])
@@ -119,59 +120,88 @@ extract <- function(n) {
     event[i]     <-          xmlValue(tds[[5]])
     description[i]     <-          xmlValue(tds[[6]])
     
-    # process the on ice players    
-    onIceTable = readHTMLTable(tds[[7]][[2]])
+    # process the on ice players for away team    
     
-    #alternative way, must pad missing values
-    a = as.character(onIceTable[seq(1, nrow(onIceTable), 2),])
-    b = as.character(onIceTable[seq(2, nrow(onIceTable), 2),])
-
-    playersAway[i,1:length(a)] <- a
-    playerPosAway[i,1:length(b)] <- b
+    if(!is.null(tds[[7]][[2]])) {
+      
+      #print("Away")
+      
+      onIceTable = readHTMLTable(tds[[7]][[2]])
+        
+      #alternative way, must pad missing values
+      a = as.character(onIceTable[seq(1, nrow(onIceTable), 2),])
+      b = as.character(onIceTable[seq(2, nrow(onIceTable), 2),])
+  
+      playersAway[i]  <- paste(a, collapse=" ") 
+      playersPosAway[i] <- paste(b, collapse=" ") 
+      
+    }
     
     # process the home on ice players    
-    onIceTable = readHTMLTable(tds[[8]][[2]])
     
-    #alternative way, must pad missing values
-    a = as.character(onIceTable[seq(1, nrow(onIceTable), 2),])
-    b = as.character(onIceTable[seq(2, nrow(onIceTable), 2),])
-    
-    playersHome[i,1:length(a)] <- a
-    playerPosHome[i,1:length(b)] <- b
-    
-    
-    #for (j in seq(1, nrow(onIceTable), 2)) {
-     # playersAway[i,(j+1)/2] <- as.numeric(as.character(onIceTable[j,]))
-      #playerPosAway[i,j/2+1] <- as.character(onIceTable[j+1,])
-    #}    
+    if(!is.null(tds[[8]][[2]])) {
+      
+      #print("Home")
+      onIceTable = readHTMLTable(tds[[8]][[2]])    
+
+      #alternative way, must pad missing values
+      a = as.character(onIceTable[seq(1, nrow(onIceTable), 2),])
+      b = as.character(onIceTable[seq(2, nrow(onIceTable), 2),])
+      
+      playersHome[i]   <- paste(a, collapse=" ") 
+      playersPosHome[i] <- paste(a, collapse=" ") 
+      
+    }  
   }
-  
-  #playersAway = as.numeric(as.character(playersAway))
-  #playerPosAway <- as.character(playerPosAway)
-  playersAway = as.data.frame(playersAway)
-  playersHome = as.data.frame(playersHome)
-  playerPosAway = as.data.frame(playerPosAway)
-  playerPosHome = as.data.frame(playerPosHome)
-  
-  colnames(playersAway) = c("player1visitor", "player2visitor", "player3visitor", "player4visitor", "player5visitor", "player6visitor") 
-  colnames(playersHome) = c("player1home", "player2home", "player3home", "player4home", "player5home", "player6home") 
-  colnames(playerPosAway) = c("player1posvisitor", "player2posvisitor", "player3posvisitor", "player4posvisitor", "player5posvisitor", "player6posvisitor") 
-  colnames(playerPosHome) = c("player1poshome", "player2poshome", "player3poshome", "player4poshome", "player5poshome", "player6poshome") 
-  
-  result = data.frame(playid, period, strength, time, event, description, 
+    
+  result = data.frame(gameid, playid, period, strength, time, event, description, 
+                      playersAway, playersPosAway, playersHome, playersPosAway,                      
              stringsAsFactors=FALSE)
-  result = cbind(result, playersAway, playerPosAway, playersHome, playerPosHome)
 }
 
-data = extract(n)
-str(data)
-data[65,]
+# extraction routine for all games
 
-# this is an individual stat row in the play by play table
-# if you parse all the rows then you have all the data
-x = pbpRows[[1]]
+process_games <- function() {
+  print("processing games...")
+  
+  result = data.frame()
+  result$gameid = as.factor(result$gameid)
+  
+  if(file.exists("./playbyplays.csv")) {
+    result <- read.csv("./playbyplays.csv")
+  } 
+  
+  # load gameids from file
+  gameids <- scan(file="gameids")
 
-xmlSApply(x, xmlValue)
+  # process games
+  for (i in 1:10) {    
+    # avoid reprocessing old files
+    if (!gameids[i] %in% levels(result$gameid)) {
+      gameid = as.character(gameids[i])
+      print(gameid)
+      
+      pbp = extract_pbp(gameid)
+      data = parse_play_by_play(gameid, pbp)
+      
+      # append processed data to result
+      result = rbind(result, data)  
+    }
+  }
+  
+  #convert some columns to factors to save space
+  result$gameid = as.factor(result$gameid)
+  result$strength = as.factor(result$strength)
+  result$event = as.factor(result$event)
+  
+  return(result)
+}
 
-# write file to output
-write.table(data, file="playByplay.txt", sep = "\t", append=F)
+gameid = gameids[1]
+
+pbp = extract_pbp(gameid)
+d = parse_play_by_play(gameid, p)
+
+# scrape play by play data
+data = process_games()
+write.csv(data, file="playbyplays.csv", row.names = FALSE)

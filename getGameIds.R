@@ -20,6 +20,5 @@ idVec <- gsub(pattern = "(\\D)",replacement = "",x = attrNHL) #Gets rid of every
 
 idVec <- idVec[-which(names(idVec) %in% c("shape","class"))] #Removes the shape and class attributes
 idVec = idVec[!(is.na(idVec) | idVec == "")]
-idVec
 
 write(idVec, file="gameids")
